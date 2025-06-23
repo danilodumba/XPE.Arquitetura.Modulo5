@@ -29,6 +29,22 @@ app.MapGet("/produto", () =>
     .WithName("GetAll")
     .WithOpenApi();
 
+app.MapGet("/produto/count", () =>
+    {
+        var service = new ProdutoService();
+        return service.Count();
+    })
+    .WithName("Count")
+    .WithOpenApi();
+
+app.MapGet("/produto/name/{name}", ([FromRoute] string name ) =>
+    {
+        var service = new ProdutoService();
+        return service.ListByName(name);
+    })
+    .WithName("ByName")
+    .WithOpenApi();
+
 app.MapPost("/produto", ([FromBody] Produto produto) =>
     {
         var service = new ProdutoService();

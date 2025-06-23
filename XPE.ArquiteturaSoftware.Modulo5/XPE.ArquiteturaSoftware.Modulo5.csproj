@@ -19,4 +19,8 @@
       <Folder Include="View\" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Compile Remove="Model\Repositories\ProdutoRepository.cs" />
+    </ItemGroup>
+
 </Project>

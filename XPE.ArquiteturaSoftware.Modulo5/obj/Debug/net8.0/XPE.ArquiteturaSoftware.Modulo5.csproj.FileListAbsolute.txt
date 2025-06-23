@@ -60,3 +60,4 @@
 /Users/danilodumba/Projects/estudos/XPE/XPE.ArquiteturaSoftware.Modulo5/XPE.ArquiteturaSoftware.Modulo5/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
 /Users/danilodumba/Projects/estudos/XPE/XPE.ArquiteturaSoftware.Modulo5/XPE.ArquiteturaSoftware.Modulo5/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
 /Users/danilodumba/Projects/estudos/XPE/XPE.ArquiteturaSoftware.Modulo5/XPE.ArquiteturaSoftware.Modulo5/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+/Users/danilodumba/Projects/estudos/XPE/XPE.ArquiteturaSoftware.Modulo5/XPE.ArquiteturaSoftware.Modulo5/obj/Debug/net8.0/XPE.ArquiteturaSoftware.Modulo5.sourcelink.json

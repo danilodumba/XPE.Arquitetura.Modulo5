@@ -38,6 +38,11 @@ public class ProdutoService
         return _repository.Produtos.ToList();
     }
     
+    public List<Produto> ListByName(string name)
+    {
+        return _repository.Produtos.Where(x => x.Nome.Contains(name)).ToList();
+    }
+    
     public void Remove(Produto produto)
     {
         _repository.Produtos.Remove(produto);
