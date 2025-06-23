@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/XPE.ArquiteturaSoftware.Modulo5.props" />
+</Project>

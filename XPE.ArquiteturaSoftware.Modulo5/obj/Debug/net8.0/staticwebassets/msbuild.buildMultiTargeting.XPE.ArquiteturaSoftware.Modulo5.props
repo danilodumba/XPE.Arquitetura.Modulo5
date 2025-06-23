@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/XPE.ArquiteturaSoftware.Modulo5.props" />
+</Project>

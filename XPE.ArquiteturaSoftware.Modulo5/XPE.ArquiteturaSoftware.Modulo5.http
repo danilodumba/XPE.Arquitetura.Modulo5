@@ -1,0 +1,6 @@
+@XPE.ArquiteturaSoftware.Modulo5_HostAddress = http://localhost:5142
+
+GET {{XPE.ArquiteturaSoftware.Modulo5_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
